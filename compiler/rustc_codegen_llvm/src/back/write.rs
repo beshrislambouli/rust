@@ -172,6 +172,7 @@ fn to_llvm_relocation_model(relocation_model: RelocModel) -> llvm::RelocModel {
         // attribute.
         RelocModel::Pic | RelocModel::Pie => llvm::RelocModel::PIC,
         RelocModel::DynamicNoPic => llvm::RelocModel::DynamicNoPic,
+        RelocModel::Epic => llvm::RelocModel::EPIC,
         RelocModel::Ropi => llvm::RelocModel::ROPI,
         RelocModel::Rwpi => llvm::RelocModel::RWPI,
         RelocModel::RopiRwpi => llvm::RelocModel::ROPI_RWPI,

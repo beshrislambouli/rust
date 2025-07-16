@@ -539,6 +539,7 @@ pub(crate) enum RelocModel {
     Static,
     PIC,
     DynamicNoPic,
+    EPIC,
     ROPI,
     RWPI,
     ROPI_RWPI,

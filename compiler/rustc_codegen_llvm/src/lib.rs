@@ -272,6 +272,7 @@ impl CodegenBackend for LlvmCodegenBackend {
                     "pic",
                     "pie",
                     "dynamic-no-pic",
+                    "epic",
                     "ropi",
                     "rwpi",
                     "ropi-rwpi",
